@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+   margin-top: 0 !important;
+  padding-top: 0 !important;
+  
+  background-color: #173b64;
+  color: #adadad;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+  padding-top: 70px;
+   overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.botao-centralizado {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #173b64;
+    }
+    a:hover{ 
+      background-color: #ffde70;
+      border: 2px solid #ffde70;
+    }
+    
+    .hamburguer{ 
+    font-size: 50px;
+    display: none;
+    }
+
+
+/* Imagens e layout */
+.img1 {
+  padding-left: 248px;
+  display: flex;
+  align-items: center;
+  gap: 183px;
+}
+
+.img1 img {
+  margin-right: 10px;
+  width: 93px;
+  height: auto;
+}
+
+.imagem-direita {
+  display: flex;
+  padding-right: 20px;
+  margin: 10px;
+  width: 96%;
+  flex-wrap: wrap;
+}
+
+.Img2 {
+  max-width: 800px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 183px;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0;
+}
+
+/* Tipografia */
+h1 {
+  font-size: 30px;
+  text-align: justify;
+  color: #ffde70;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  border: 2px solid #FFDE70;
+  width: 250px;
+  background-color: #f7e56b;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.titulo-servicos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 40px 0;
+}
+
+h3 {
+  font-size: 25px;
+  color: black;
+  padding-left: 5px;
+  text-align: center;
+  width: 300px;
+}
+
+p {
+  font-size: 30px;
+  color: #f4f4f4;
+  padding-left: 52px;
+}
+
+/* Botão personalizado */
+.C {
+  font-size: 40px;
+  color: #f4f4f4;
+  background-color: #ffde70;
+  border: 3px solid #ffde70;
+  max-width: 624px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Destaques */
+.DS {
+  font-weight: bold;
+}
+
+.D {
+  font-size: 90px;
+  font-family: 'Raleway', sans-serif;
+  color: #f4f4f4;
+}
+
+a {
+  color: #173b64;
+  text-decoration: none;
+}
+
+/* Cartões de serviços */
+.servicos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 0 60px;
+  margin: 40px 0;
+}
+
+.card {
+  background-color: #f7e56b;
+  width: 295px;
+  padding: 20px;
+  border-radius: 8px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.card i {
+  font-size: 28px;
+  margin-bottom: 5px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover i {
+  transform: scale(1.2);
+}
+
+.card p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .servicos {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .D{
+    margin-top: 3rem;
+    padding: 0;
+    font-size: 50px;
+  }
+}

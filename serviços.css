@@ -1,0 +1,153 @@
+body {
+  font-family: sans-serif;
+  background-color: #173B64; /* azul escuro */
+  color:white;
+  margin: 0;
+  padding: 0;
+
+}
+header {
+      background: aliceblue;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 5px solid #ffde70;
+      font-family: 'montserrat', sans-serif;
+      flex-wrap: wrap;
+    }
+    
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #173b64;
+    }
+    a:hover{ 
+        background-color: #FFDE70;
+        border: 2px solid #FFDE70;
+ }
+.hamburguer{ 
+    font-size: 50px;
+    display: none;
+
+}
+@media (max-width: 760px){ 
+    .menu{ display: none;} 
+    .hamburguer{ display: block;}   
+}
+
+.topo{ 
+  border-bottom: 2px solid #FFDE70;
+  display: flex;
+  padding: 15px 30px;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0033cc;
+}
+
+.logo {
+  color: #FFDE70;
+  font-size: 30px;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0033cc;
+  font-weight: bold;
+}
+
+.contato-header{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icone-whatsapp{ 
+    width: 24px;
+    height: 24px;
+    display: flex;
+}
+
+.banner {
+  background-image: url('banner.jpg'); /* Substitua por sua imagem */
+  background-size: cover;
+  background-position: center;
+  color: #173B64;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #173B64;
+}
+strong{ 
+  color: #173B64;
+}
+.texto-banner h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #FFDE70;
+}
+
+.texto-banner p {
+  font-size: 18px;
+}
+
+.servicos {
+  padding: 40px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #0033cc;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  width: 700px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #0033cc;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 25px;
+  color: black;
+}
+
+
+
+footer {
+  background-color: #173b64;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}

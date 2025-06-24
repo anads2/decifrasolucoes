@@ -1,0 +1,143 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'montserrat', sans-serif;
+  
+}
+
+body {
+background-color: #173B64;
+  color: #fff;
+  padding: 20px;
+}
+
+h1{ 
+    font-size: 35px;
+    text-align: justify;
+    color:#173B64;
+    width: 100%;
+}
+h3{ 
+  font-size: 35px;
+    text-align: center;
+    color: #ffde70;
+    width: 100%;
+}
+
+
+
+header {
+  background-color: #ffde70;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+.titulo1{
+  font-size: 30px;
+    text-align: justify;
+    color:#fff;
+    width: 100%;
+}
+
+
+.team-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ffde70;
+}
+
+
+.grid {
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.iza img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+
+.ketily 
+     img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.Ana img{ 
+width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.geo img{ 
+    width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.lary img{ 
+    width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.Ro img{ 
+    width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+p{
+   align-items: center;
+  font-size: 30px;
+  padding: 90px;
+  text-align: justify;
+  }
+
+
+.botao-voltar {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color:#173B64;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: sans-serif;
+    z-index: 1000;
+  }
+
+  .botao-voltar:hover {
+    background-color: #5e3a6e;
+    transform: translateY(-2px);
